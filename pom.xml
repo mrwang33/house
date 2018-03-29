@@ -6,7 +6,12 @@
 	<groupId>com.wh</groupId>
 	<artifactId>house</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>house-common</module>
+		<module>house-biz</module>
+		<module>house-web</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>house</name>
 	<description>Demo project for Spring Boot</description>
